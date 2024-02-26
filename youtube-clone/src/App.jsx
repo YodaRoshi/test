@@ -14,7 +14,7 @@ const App = () => {
       <Navbar setSidebar={setSidebar}/>
       <Routes>
         <Route path='/'element={<Home sidebar={sidebar}/>  }/>
-        <Route path='/video/:categoryID:videoId'element={<Video/>}/>
+        <Route path='/video/:categoryID/:videoId'element={<Video/>}/>
        </Routes>
     </div>
   )
